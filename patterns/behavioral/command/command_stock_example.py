@@ -39,9 +39,6 @@ class Agent:
         self.__orderQueue.append(order)
         order.execute()
 
-    def execute(self):
-        self.cmd.execute()
-
 
 if __name__ == '__main__':
     # Client
